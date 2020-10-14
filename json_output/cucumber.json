@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20670270313,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "php-travels-login-feature;login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 456881057,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on valid login page",
+            "match": {
+              "location": "Login.user_is_on_valid_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 581758816,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid username and password",
+            "match": {
+              "location": "Login.user_enters_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2835942497,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "Login.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48855,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user logged in application successfully",
+            "match": {
+              "location": "Login.user_logged_in_application_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "PHP Travels Login feature",
+    "description": "",
+    "id": "php-travels-login-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

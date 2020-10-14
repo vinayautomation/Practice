@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.544902">
+    <testcase classname="PHP Travels Login feature" name="Login with valid credentials" time="24.544902">
+        <system-out><![CDATA[Given user is on valid login page...........................................passed
+When user enters valid username and password................................passed
+And click on login button...................................................passed
+Then user logged in application successfully................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
